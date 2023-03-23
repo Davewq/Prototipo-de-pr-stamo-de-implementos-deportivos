@@ -1,0 +1,184 @@
+:root {
+    --toolbar-bg-color: #003A6B;
+    --toolbar-font-color: white;
+    --toolbar-font-family: 'Roboto', sans-serif;
+    --toolbar-font-size: 0.85rem;
+    --brand-font-size: 1.45rem;
+    --brand-font-weight: 400;
+    --navbar-bg-color: #004A87;
+    --navbar-font-color: white;
+    --navbar-font-family: 'leelawadee-regular', sans-serif;
+    --navbar-font-size: 1.125rem;
+    --main-font-family: 'leelawadee-regular', sans-serif;
+    --info-color: #3A7D87;
+    --info-bg-color: #D1ECF1;
+    --info-font-size: 17px;
+    --footer-bg-color: #004A87;
+    --footer-color: white;
+    --footer-font-family:'Roboto', sans-serif;    
+}
+
+#header {
+    height: 130px;
+    margin-bottom: 12px;
+}
+
+#header .btn-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--toolbar-bg-color);
+    margin-bottom: 0px !important;
+}
+
+#header .btn-toolbar .btn {
+    color: var(--toolbar-font-color);
+    font-family: var(--toolbar-font-family);
+    font-size: var(--toolbar-font-size);
+}
+
+#header .navbar {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-font-color);
+    font-family: var(--navbar-font-family);
+}
+
+#header .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--brand-font-size);
+    font-weight: var(--brand-font-weight);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-right: 15px;
+}
+
+#header .brand a {
+    margin: 0px 5px;
+}
+
+#header .brand span {
+    display: block; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#header .navbar .nav-link {
+    display: block;
+    color: var(--navbar-font-color);
+    font-family: var(--navbar-font-family);
+    font-size: var(--navbar-font-size);
+    padding: 10px 5px;
+    margin: 0px 5px;
+}
+
+#main {
+    font-family: var(--main-font-family);
+    margin-bottom: 30px;
+}
+
+#main .data-box {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#main .box-wrap {
+    width: 75%;
+    margin: 0px auto;
+}
+
+#main .data-box-fact {
+    font-size: 30px;
+    color: #00BDD6;
+    text-align: left;
+    text-indent: 25px;
+}
+
+#main .data-box-title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#main .data-box-title > span{
+    color: #959AA4;
+    font-weight: bold;
+}
+
+#main .data-box-title > i {
+    display: block;
+}
+
+#main .data-box-details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.bg-blue {
+    background-color: #EBFDFF;
+    color: #00BDD6;
+}
+
+.bg-red {
+    background-color: #FEF0F1;
+    color: #F22128;
+}
+
+.bg-green {
+    background-color: #EEFDF3;
+    color: #278847;
+}
+
+.data-box-icon {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+#footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-color);
+    font-family: var(--);
+    padding-top: 20px;
+}
+
+#footer .logos {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 40px;
+}
+
+#footer .logo-wrap {
+    margin: 0 5px;
+}
+
+#colombia-seal {
+    padding-right: 20px;
+    border-right: 1px solid rgba(255, 255, 255, .35);
+    margin-right: 10px;
+}
+
+#footer h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+#footer .footer-content-column ul{
+    list-style: none;
+    border-left: 1px solid #c08e2d;
+    padding-left: 1rem;
+}
+
+#footer .footer-content-column a {
+    display: block;
+    text-decoration: none;
+    color: var(--footer-color);
+}
